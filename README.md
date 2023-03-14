@@ -68,7 +68,7 @@ this client (numeric)
         - Nr.employed: number of employees - quarterly indicator (numeric)
 
 ### Problem Statement :  
-We are trying to use a restaurant data set to predict the ratings of two people based on different characteristics of the restaurant. The dataset contains information about the city, location, type of cuisine served, price, rating, and more. The goal is to use this data to develop a model that can accurately predict two people's ratings  based on restaurant characteristics. This can be done by creating a regression model that uses restaurant characteristics to predict the rating The model can then be used to predict two people's rating  for a particular restaurant
+problem is to predict whether a client will subscribe to a term deposit or not, given a set of features about the client and the marketing campaign. This is a binary classification problem, where the target variable is a binary variable indicating whether the client has subscribed to the term deposit or not. The features may include demographic information about the client, such as age, gender, education level, and occupation, as well as information about the marketing campaign, such as the type of communication used, the number of contacts made, and the time of day the contact was made. The goal of the machine learning model is to learn patterns in the data that can be used to predict whether a client is likely to subscribe to the term deposit or not, based on these features.
 
 ## Table of Contents
   - [Requirements Packages](#requirements-packages)
