@@ -225,6 +225,7 @@ problem is to predict whether a client will subscribe to a term deposit or not, 
         
         
         Observations:
+![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/HyperparameterTuningAnn.png?raw=true)
 ![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/hyerparametertuninglossandaccuracy.png?raw=true)
 ![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/hyperparametertuninglayerssummary.png?raw=true)
 ![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/lessthresholdandepochsmetrics.png?raw=true)
