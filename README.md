@@ -168,6 +168,7 @@ problem is to predict whether a client will subscribe to a term deposit or not, 
 
         
 > ### ANN 
+
 > ##### Case 1 (Base Model with random layers and neurons)
 
 ![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/BaseAnnModel.png?raw=true)
@@ -184,6 +185,7 @@ problem is to predict whether a client will subscribe to a term deposit or not, 
         - Regularisation Methods
 
   
+
 > ##### Case 2 (Base Model with less epochs)
 ![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/modelwithlessepochaccauracy.png?raw=true)
 ![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/lessthresholdandepochsmetrics.png?raw=true)
@@ -192,7 +194,8 @@ problem is to predict whether a client will subscribe to a term deposit or not, 
             - As our data is imbalance we are focusing on client who are willing
             to subscribed a term deposit so we have to focus on True Positive Rate and Weighted Avg Precision of this model in terms of 'Yes' i.e nothing but the minority class.     
 
-> ##### Case 2 (With random under sampling)
+
+> ##### Case 3 (With random under sampling)
 ![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/randomundersampling.png?raw=true)
 
     Observations:
@@ -202,7 +205,8 @@ problem is to predict whether a client will subscribe to a term deposit or not, 
         Observation:
             Increase in incorrect prediction of majority class
             
-> ##### Case 2 (With NearMiss)
+
+> ##### Case 4 (With NearMiss)
 ![foxdemo](https://github.com/SarkarPriyanshu/Bank_Marketing/blob/main/Img/nearmiss.png?raw=true)
 
     Observations:
@@ -211,7 +215,9 @@ problem is to predict whether a client will subscribe to a term deposit or not, 
         Observation:
             Although it predict well for minority ('Yes') class but increase in incorrect prediction in majority ('No') class            
 
-> ##### Case 2 (Optimising and Hyperparameter tuning ANN model)   
+
+
+> ##### Case 5 (Optimising and Hyperparameter tuning ANN model)   
 
 [KerasTuner](https://keras.io/keras_tuner/)
     We used keras tuner for hyperparameter tuning of our Model
