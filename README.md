@@ -1,4 +1,4 @@
-# Restaurant Data Analysis
+# Bank Marketing Analysis
 
 ## Summary | Problem Statement
 
